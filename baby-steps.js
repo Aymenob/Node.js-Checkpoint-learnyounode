@@ -1,0 +1,1 @@
+console.log(process.argv.map(e=>Number(e)? parseInt(e):"").filter(e=>e!="").reduce((a,b)=>b+a))
